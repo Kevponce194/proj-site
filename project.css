@@ -1,0 +1,93 @@
+/* Color Theme Swatches in Hex */
+.goldenrod-1-hex { color: #FF9E18; }
+.goldenrod-2-hex { color: #C4D7ED; }
+.goldenrod-3-hex { color: #ABC8E2; }
+.goldenrod-4-hex { color: #375D9A; }
+.goldenrod-5-hex { color: #183174; }
+
+/* Color Theme Swatches in RGBA 
+.goldenrod-1-rgba { color: rgba(255, 158, 24, 1); }
+.goldenrod-2-rgba { color: rgba(195, 214, 237, 1); }
+.goldenrod-3-rgba { color: rgba(170, 200, 226, 1); }
+.goldenrod-4-rgba { color: rgba(54, 93, 154, 1); }
+.goldenrod-5-rgba { color: rgba(24, 49, 116, 1); }
+
+Color Theme Swatches in HSLA
+.goldenrod-1-hsla { color: hsla(34, 100, 54, 1); }
+.goldenrod-2-hsla { color: hsla(212, 53, 84, 1); }
+.goldenrod-3-hsla { color: hsla(208, 48, 77, 1); }
+.goldenrod-4-hsla { color: hsla(216, 47, 40, 1); }
+.goldenrod-5-hsla { color: hsla(223, 65, 27, 1); }*/
+
+body {
+    background-color:white;
+    margin: 0px;
+}
+
+#wrap {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#masthead {
+    align-content: center;
+    width: fit-content;
+    height: 150px;
+    background-color: white;
+    padding: 0px 20px;
+    float: left;
+}
+
+#masthead2 {
+    align-content: center;
+    width: auto;
+    height: 150px;
+    background-color:#C4D7ED;
+    /*padding: 10px 30px;*/
+}
+
+hr {
+    border-color: #183174;
+    border-style: solid;
+    border-width:20px;
+    margin: 0;
+
+}
+
+h1 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #183174;
+}
+
+h2 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+h4 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+h5 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+h6 {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 100;
+    font-size: 48px;
+}
+
