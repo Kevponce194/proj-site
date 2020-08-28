@@ -5,27 +5,19 @@
 .goldenrod-4-hex { color: #375D9A; }
 .goldenrod-5-hex { color: #183174; }
 
-/* Color Theme Swatches in RGBA 
-.goldenrod-1-rgba { color: rgba(255, 158, 24, 1); }
-.goldenrod-2-rgba { color: rgba(195, 214, 237, 1); }
-.goldenrod-3-rgba { color: rgba(170, 200, 226, 1); }
-.goldenrod-4-rgba { color: rgba(54, 93, 154, 1); }
-.goldenrod-5-rgba { color: rgba(24, 49, 116, 1); }
-
-Color Theme Swatches in HSLA
-.goldenrod-1-hsla { color: hsla(34, 100, 54, 1); }
-.goldenrod-2-hsla { color: hsla(212, 53, 84, 1); }
-.goldenrod-3-hsla { color: hsla(208, 48, 77, 1); }
-.goldenrod-4-hsla { color: hsla(216, 47, 40, 1); }
-.goldenrod-5-hsla { color: hsla(223, 65, 27, 1); }*/
 
 body {
     background-color:white;
     margin: 0px;
 }
 
-#wrap {
-    width: fit-content;
+#wrapOut {
+    width: 100%;
+    text-align: center;
+}
+
+#wrapIn {
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -64,13 +56,17 @@ h1 {
 h2 {
     font-family: 'Noto Sans SC', sans-serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 36px;
+    line-height: 0px;
+    color: #375D9A;
 }
 
 h3 {
     font-family: 'Noto Sans SC', sans-serif;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 24px;
+    line-height: 0px;
+    color: #375D9A;
 }
 
 h4 {
@@ -85,9 +81,17 @@ h5 {
     font-size: 48px;
 }
 
-h6 {
+p {
+    text-align: justify;
+    display: inline-block;
+    width: 650px;
     font-family: 'Noto Sans SC', sans-serif;
-    font-weight: 100;
-    font-size: 48px;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0px;
 }
 
+.gallery {
+    margin: 20px 0px 5px 0px;
+    text-align: center;
+}
