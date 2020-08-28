@@ -1,13 +1,27 @@
 /* Color Theme Swatches in Hex */
-.goldenrod-1-hex { color: #FF9E18; }
-.goldenrod-2-hex { color: #C4D7ED; }
-.goldenrod-3-hex { color: #ABC8E2; }
-.goldenrod-4-hex { color: #375D9A; }
-.goldenrod-5-hex { color: #183174; }
+.goldenrod-1-hex {
+    color: #FF9E18;
+}
+
+.goldenrod-2-hex {
+    color: #C4D7ED;
+}
+
+.goldenrod-3-hex {
+    color: #ABC8E2;
+}
+
+.goldenrod-4-hex {
+    color: #375D9A;
+}
+
+.goldenrod-5-hex {
+    color: #183174;
+}
 
 
 body {
-    background-color:white;
+    background-color: white;
     margin: 0px;
 }
 
@@ -19,6 +33,9 @@ body {
 #wrapIn {
     width: 100%;
     margin: 0 auto;
+    background: url(bkgd.jpg);
+    background-size: 900px 425px;
+    background-repeat: repeat-x;
 }
 
 #masthead {
@@ -34,14 +51,14 @@ body {
     align-content: center;
     width: auto;
     height: 150px;
-    background-color:#C4D7ED;
+    background-color: #C4D7ED;
     /*padding: 10px 30px;*/
 }
 
 hr {
     border-color: #183174;
     border-style: solid;
-    border-width:20px;
+    border-width: 20px;
     margin: 0;
 
 }
@@ -94,4 +111,5 @@ p {
 .gallery {
     margin: 20px 0px 5px 0px;
     text-align: center;
+    border: 4px solid white;
 }
