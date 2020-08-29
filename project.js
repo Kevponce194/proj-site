@@ -1,19 +1,10 @@
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("gallery");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "center";  
+var imageSources = ["images/IMG_4999.jpg", "images/IMG_8333.jpg", "images/IMG_4999 copy 2.jpg", "images/IMG_4999 copy 3.jpg"]
+        
+var index = 0;
+setInterval (function(){
+  if (index === imageSources.length) {
+    index = 0;
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "in-line";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+  document.getElementById("gallery").src = imageSources[index];
+  index++;
+} , 2000);
