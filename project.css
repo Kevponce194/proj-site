@@ -108,6 +108,12 @@ p {
     margin: 0px;
 }
 
+.address {
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+}
+
 #gallery {
     margin: 25px 0px 5px 0px;
     text-align: center;
