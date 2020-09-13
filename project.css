@@ -1,4 +1,12 @@
 /* Color Theme Swatches in Hex */
+/* * { 
+    border: 1px solid red !important;
+} */
+
+.bluebar {
+    background-color: #183174; 
+    padding: 20px;
+}
 .goldenrod-1-hex {
     color: #FF9E18;
 }
@@ -19,10 +27,46 @@
     color: #183174;
 }
 
-
 body {
     margin: 0px;
     min-width: 500px;
+}
+
+#masthead {
+    width: fit-content;
+    height: 120px;
+    background-color: white;
+    padding: 0px 20px;
+    float: left;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+#masthead2 {
+    width: auto;
+    height: 120px;
+    background-color: #C4D7ED;
+    margin-bottom: 0px;
+    position: relative;
+}
+.navigation ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 30px 0px;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #183174
+}
+
+.navigation li:not(:first-child):before {
+    padding:30px;
+    content: " | ";
+}
+.navigation {
+    right: 5%;
+    position: absolute;
 }
 
 #wrapOut {
@@ -38,22 +82,6 @@ body {
     background-size: 900px 425px;
     background-repeat: repeat-x;
     background-color: turquoise;*/
-}
-
-#masthead {
-    width: fit-content;
-    height: 140px;
-    background-color: white;
-    padding: 0px 20px;
-    float: left;
-    margin-bottom: 0px;
-}
-
-#masthead2 {
-    width: auto;
-    height: 140px;
-    background-color: #C4D7ED;
-    margin-bottom: 0px;
 }
 
 hr {

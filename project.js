@@ -4,7 +4,7 @@ var index = 0;
 setInterval (function(){
   if (index === imageSources.length) {
     index = 0;
-  }
+  };
   document.getElementById("gallery").src = imageSources[index];
   index++;
 } , 2000);
