@@ -1,0 +1,148 @@
+ * {
+     /* outline: solid 1px red; */
+     box-sizing: border-box;
+ }
+
+ /* Palette only */
+ .goldenrod-1-hex {
+     color: #FF9E18;
+     color: #C4D7ED;
+     color: #ABC8E2;
+     color: #375D9A;
+     color: #183174;
+ }
+
+ body {
+     /* min-width: 1024px; */
+     margin: 0 auto;
+ }
+
+ .container {
+     min-width: 1024px;
+ }
+
+ /* header {
+     background-color: white;
+     width: 25%;
+     height: 140px;
+     float: left;
+     text-align: center;
+ } */
+
+ .logo {
+     width: 25%;
+     height: 120px;
+     background-color: white;
+     /* padding: 0px 50px; */
+     float: left;
+     position: relative;
+     z-index: 1;
+     text-align: center;
+ }
+
+ .masthead2 {
+     width: auto;
+     height: 120px;
+     background-color: #C4D7ED;
+     margin-bottom: 0px;
+     position: relative;
+ }
+
+ /*  NAV ----------------- */
+
+ .navigation {
+    right: 10%;
+    position: absolute;
+}
+.navigation ul li {
+     display: inline-block;
+     list-style: none;
+     padding: 30px 0px;
+     font-family: 'Noto Sans SC', sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     color: #183174
+ }
+
+ .navigation li:not(:first-child):before {
+     padding: 30px;
+     color: #FF9E18;
+     content: " | ";
+ }
+
+ section {
+     background-color: green;
+     height: max-content;
+ }
+
+ footer {
+     background-color: #183174;
+     color: white;
+ }
+
+ .div1 {
+     width: 25%;
+     float: left;
+ }
+
+ .div2 {
+     /*background-color: rgb(48, 163, 184);*/
+     width: 60%;
+     margin: auto;
+     float: left;
+     text-align: center;
+     margin: 10px 0px 10px 0px;
+ }
+
+ .div2 img {
+     width: 100%;
+     height: 95%;
+ }
+
+ .bluebar {
+     background-color: #183174;
+     padding: 20px;
+ }
+
+ hr.clear {
+     clear: both;
+     margin: 0;
+     border: solid 3px #FF9E18;;
+ }
+
+ .address {
+     font-family: 'Catamaran', sans-serif;
+     font-weight: 600;
+     font-size: 17px;
+     line-height: 150%;
+     text-align: center;
+     margin: 0;
+     padding: 10px;
+     clear: both;
+ }
+
+ p.artOf {
+     padding: 0px 20px 10px 20px;
+     font-family: 'Noto Sans SC', sans-serif;
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 130%;
+     margin: 0px 0px 10px 0px;
+ }
+
+ .subhead {
+     padding: 0px 20px;
+     font-family: 'Catamaran', sans-serif;
+     font-weight: 600;
+     font-size: 24px;
+     color: #183174;
+     margin: 10px 0px;
+ }
+
+ /* li {
+     display: inline-block;
+     margin: 0px 30px 0px 10px;
+     line-height: 20px;
+     padding: 40px;
+     
+ } */
